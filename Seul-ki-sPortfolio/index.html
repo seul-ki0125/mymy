@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seul-ki's Portfolio</title>
+    <meta name="description" contant="Portfolio for FrontEnd developer Seul-ki">
+    <meta name="author" contant="Seul-ki">
+    <link rel="icon" type="imgs/png" href="imgs/favicon.png" />
+    <script src="https://kit.fontawesome.com/7034f37c19.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar--dark">
+        <div class="navbar__logo">
+            <span><img src="imgs/logo.png" alt="log image" width="30"></span>
+            <a href="#">Seul-ki</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="nav__menu__item active" data-link="#home">Home</li>
+            <li class="nav__menu__item" data-link="#about">About</li>
+            <li class="nav__menu__item" data-link="#skills">Skills</li>
+            <li class="nav__menu__item" data-link="#work">My Work</li>
+            <li class="nav__menu__item" data-link="#testimonials">Testimonials</li>
+            <li class="nav__menu__item" data-link="#contact">Contact</li>
+        </ul>
+
+        <!-- Toggle Button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i> 
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home_inner">
+            <img src="imgs/profile.jpg"  alt="seul-ki's profile photo" class="home__avater">
+            <h1 class="home__title">HACCP 생산 경험과 매장관리자를 통해 얻은 꼼꼼함과 책임감.</h1>
+            <!--<h2 class="home__description">A Front-end Developer with a Tiger Vibe when we're Together!</h2>-->
+            <button class="home__contact">Contact Me</button>
+            </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>
+            "세상에 풍운은 많이 일고 해와 달은 사람을 급급하게 몰아붙이는데 한 번의 젊은 나이를 어찌할 것인가" - 독립운동가 이회영 <br />
+            함께 매일매일을 성장하고, 보람을 느끼고 싶은 일을 하고싶고, <br>
+            LG TWINS와 리그오브레전드를 좋아하는 유슬기 입니다. <br>
+            저의 followership을 제대로 발휘할 수 있는 그런 인재가 되고 싶습니다.<br>
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <!--<i class="fab fa-html5"></i>-->
+                    <i class="fas fa-bread-slice"></i>
+                </div>
+                <h2 class="major__title">제과제빵</h2>
+                <!--div class="major__description">
+                    Dynamic Web page using <br>HTML, CSS, JavaScript.
+                </!--div-->
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <!--i class="fab fa-react"></i-->
+                    <i class="fas fa-birthday-cake"></i>
+                </div>
+                <h2 class="major__title">케이크 아이싱</h2>
+                <!--div class="major__description">
+                    Dynamic Web page using React.
+                </div-->
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fas fa-hamburger"></i>
+                </div>
+                <h2 class="major__title">한양식조리</h2>
+                <!--div class="major__description">
+                    Web page using TypeScript & <br>
+                    Object Oriented Programming.
+                </div-->
+            </div>
+        </div>
+        <div class="about__education">
+            <div class="education">
+                <!--img src="imgs/education/sbs.jpg" alt="sbs" class="education__logo"-->
+                <div class="education__description">
+                    <p class="education__name">제과제빵 과정 수료중</p>
+                    <p class="education__perid">2023.12~</p>
+                </div>
+            </div>
+            <div class="education">
+                <!--<img src="imgs/education/hanq.jpg" alt="hanq" class="education__logo">-->
+                <div class="education__description">
+                    <p class="education__name">한식,양식 조리기능사 자격증 취득과정 수료</p>
+                    <p class="education__perid">2021.3 ~ 2022.2</p>
+                </div>
+            </div>
+            <!-- <div class="education">
+                <img src="imgs/education/university.png" alt="university" class="education__logo">
+                <div class="education__description">
+                    <p class="education__name">방송통신대학교 경영학과 재학중</p>
+                    <p class="education__perid">2019~</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="skills__inner section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attribute</h2>
+            <p>
+                아우어베이커리에서 파이롤러로 파이만드는 법을 익히고,<br>
+                신세계푸드 베이커리 파트에서 제과제빵과 케이크아이싱 경험을 쌓았습니다. <br>
+                포토샵으로 배우고 새로운 것들을 만드는 것에 관심이 많고, HTML, CSS 같은 코딩언어를 좋아합니다. <br>
+                팀환경에서 일하는 것을 좋아하며, 시간을 잘지킵니다. <br>
+                또한 스트레스에 강해서 잘 적응할 수 있습니다.
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <!-- 안에 정보를 담고있는 container -->
+                    <h3 class="skillset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>반죽다루기.</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>재료손질.</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>케이크아이싱.</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>친화력.</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"  style="width:99%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>협동력.</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:99%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>파이롤러 다루기.</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:65%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <!-- 안에 정보를 담고있는 container -->
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>PhotoShop</span></li>
+                            <li><span>Wondershare Filmora</span></li>
+                            <li><span>power point</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Survice & Communication</span></li>
+                            <li><span>Hand is fast</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__inner section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <!-- buttons -->
+                <button class="categories__btn active" data-filter="*">All <span class=category__count>5</span> </button>
+                <button class="categories__btn" data-filter="front-end">베이커리 <span class=category__count>2</span> </button>
+                <button class="categories__btn" data-filter="react">커피<span class=category__count>1</span></button>
+                <button class="categories__btn" data-filter="typescript">조리 <span class=category__count>2</span></button>
+                <!--button class="categories__btn" data-filter="node">BackEnd_Node.js <span class=category__count>1</span></!--button-->
+            </div>
+            <div class="work__projects">
+                <a href="" target="_blank" class="project" data-type="front-end">
+                    <img src="imgs/testimonoals/shinsegae.png" alt="신세계푸드 이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>신세계푸트 베이커리 파트</h3>
+                        <span>제과제빵 및 케이크아이싱</span>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="project" data-type="front-end">
+                    <img src="imgs/our.jpg" alt="예시이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>아우어 베이커리CK</h3>
+                        <span>파이롤러 사용하여 페스츄리 생산</span>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="project" data-type="typescript">
+                    <img src="imgs/testimonoals/shinsegae.png" alt="신세계푸드 이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>신세계푸드 조리 파트</h3>
+                        <span>노브랜드 버거에서 조리파트 재직</span>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="project" data-type="react">
+                    <img src="imgs/starbucks.png" alt="예시이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>STARBUCKS</h3>
+                        <span>슈퍼바이져 매장관리와 모든 음료제조.</span>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="project" data-type="typescript">
+                    <img src="imgs/cj.jpg" alt="예시이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>씨제이푸드빌</h3>
+                        <span>빕스, 빕스버거 모든 메뉴 제조.</span>
+                    </div>
+                </a>
+                <!--a href="" target="_blank" class="project" data-type="node">
+                    <img src="imgs/projects/example.png" alt="예시이미지" class="project__img">
+                    <div class="project__description">
+                        <h3>Site</h3>
+                        <span>Node.js</span>
+                    </div>
+                </!--a-->
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+        <div class="section__inner section__container">
+            <h1>Testimonials</h1>
+            <h3>Look what they think of me!</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/testimonoals/shinsegae.png" alt="신세계푸드 이미지" class="testimonial__avatar">
+                    <div class="tesimonial__speech">
+                        <p>
+                            점포에서 데리고있던 직원입니다. 하기와 같은 모습으로 귀사에 기여할 것이기에 훌륭한 인재로 추천합니다.<br>
+                            - 특유의 창의력과 기획력을 발휘하여 창의적으로 문제를 해결할 것입니다.<br>
+                            - 밝고 긍정적인 성격으로 조직의 활력소가 될 것입니다.<br>
+                            - 기본기가 탄탄하여 어떤 업무가 주어지든 빠르게 습득할 것입니다.
+                        </p>
+                        <p class="name">
+                            <a href="https://www.shinsegaefood.com/main.sf" target="_blank">
+                             최성임 대리</a> / 신세계푸드
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="tesimonial__speech">
+                        <p>
+                           손이 굉장히 빠르며, 나이와 상관없이 여러 나이대의 동료들과 잘 지냅니다. <br>  
+                           정해진 메뉴얼을 빨리 외우며, 실전에 강합니다. <br>
+                           여러 상황에서도 당황하지 않으며, 스스로 할 일들을 잘 찾아서 합니다. <br>
+                           여러 브랜드 매장 매니져 경험으로 신입들 교육과 여러사람들과 커뮤니케이션 능력이 뛰어납니다. 
+                        </p> 
+                        <p class="name">
+                            <a href="https://www.shinsegaefood.com/main.sf">남궁덕 대리</a> / 신세계푸드
+                        </p>
+                    </div>
+                    <img src="imgs/testimonoals/shinsegae.png" alt="신세계푸드 이미지" class="testimonial__avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's a talk!</h1>
+        <h2 class="contact__email">010-9890-0129</h2>
+        <!--div class="contact__links">
+            <a href="https://github.com/seul-ki0125" target="_blank" title="새창으로 열기">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a href="https://ange-ray.tistory.com/" target="_blank" title="새창으로 열기">
+                <i class="fas fa-blog"></i>
+            </a>
+        </!--div-->
+        <p class="contact__right">
+            2023.Seul-ki Yoo_All rights reserved.
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+
+</html>
